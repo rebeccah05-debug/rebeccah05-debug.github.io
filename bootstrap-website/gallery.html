@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Gallery</title>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+
+  <style>
+    body {
+      background-color: #f5f5dc;
+      margin: 0;
+    }
+
+    .gallery-img {
+      object-fit: cover;
+      width: 100%;
+      height: 100%;
+    }
+  </style>
+</head>
+
+<body class="d-flex flex-column min-vh-100">
+
+<!-- NAVBAR (same as homepage) -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-danger mb-3">
+  <div class="container">
+    <a class="navbar-brand" href="index.html">Rebecca Harvey Portfolio</a>
+
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbar">
+      <ul class="navbar-nav me-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" href="#">Gallery</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- TITLE -->
+<section class="text-center py-4">
+  <div class="container">
+    <h1 class="display-5 fw-bold text-danger">Gallery</h1>
+    <p class="lead text-body-secondary">
+      A collection of project visuals and explorations.
+    </p>
+  </div>
+</section>
+
+<!-- RESPONSIVE GALLERY -->
+<section class="pb-5 flex-grow-1">
+  <div class="container">
+   <div class="row g-4">
+
+      <div class="col-12 col-lg-8">
+        <img src="DSC_0073.png" class="img-fluid rounded shadow" style="height: 500px; object-fit: cover;">
+      </div>
+
+      <div class="col-12 col-lg-4">
+        <img src="DSC_0050.png" class="img-fluid rounded shadow-sm mb-4" style="height: 240px; object-fit: cover;">
+        <img src="DSC_0071.png" class="img-fluid rounded shadow-sm" style="height: 240px; object-fit: cover;">
+      </div>
+
+      <div class="col-12">
+        <img src="DSC_0095.png" class="img-fluid rounded shadow" style="height: 350px; object-fit: cover;">
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER (same styling as homepage) -->
+<footer class="mt-auto border-top" style="border-color: #f5f5dc;">
+  <div class="container d-flex flex-wrap justify-content-between align-items-center py-3">
+
+    <div class="col-md-4 d-flex align-items-center">
+      <span class="text-body-secondary">© 2026 Company, Inc</span>
+    </div>
+
+    <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+      <li class="ms-3">
+        <a class="text-body-secondary" href="#"><i class="bi bi-instagram"></i></a>
+      </li>
+      <li class="ms-3">
+        <a class="text-body-secondary" href="#"><i class="bi bi-linkedin"></i></a>
+      </li>
+    </ul>
+
+  </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
